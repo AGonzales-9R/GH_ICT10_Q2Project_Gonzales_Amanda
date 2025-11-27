@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- PYSCRIPT CDN -->
+    <link rel="stylesheet" href="https://pyscript.net/releases/2025.7.3/core.css">
+    <script type="module" src="https://pyscript.net/releases/2025.7.3/core.js"></script>
+	
+    <!-- SETUP BOOTSTAP: LINK TO BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    
+    <!-- CSS LINK -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <title>ICT 10 Project: School Website</title>
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container-fluid">
+        <img src="SHHS LOGO.png" alt="Logo" class="rounded-pill" style="width: 4%;"><a class="navbar-brand me-auto" href="index.html">DC Super High</a>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Logo</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link mx-lg-2" href="grades.html">Grade Calculator</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link mx-lg-2" href="clubs.html">Clubs</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link mx-lg-2" href="refs.html">References</a>
+            </li>
+            </ul>
+        </div>
+        </div>
+        <a href="" class="refresh-button">Refresh</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+    </nav>
+
+    <img src="FRONT.png" style="width: 100%;">
+
+    <br>
+    <br>
+
+    <div class="container-fluid p-4 mb-5 mt-5">
+        <div class="row">
+            <div class="col-md-6 mt-3 mb-3">
+                <img src="SHHS LOGO.png" class="mx-auto d-block img-fluid">
+            </div>
+            <div class="col-md-6 mt-3 mb-3">
+                <h1 style="font-size: 50px;">At DC Super High,</h1>
+                <p style="font-size: 22px;">young heroes train to master their powers, sharpen their minds, and learn what it truly means to protect the world. With state-of-the-art facilities, expert mentors, and classes ranging from advanced combat to heroic ethics, DC Super High prepares its students to become the next generation of legendary defenders.</p> <!-- Description made using ChatGPT -->
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid p-4 mb-5 mt-5" style="background-color: #f1c6c6cc;">
+        <h2 style="text-align: center; font-size: 40px;">Our Top Students:</h2>
+
+        <br>
+
+        <div class="students">
+            <div class="flip-card mx-auto">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="supergirl.png" alt="Supergirl" class="profile" style="width: 90%;">
+                        <div class="container">
+                            <br>
+                            <h2>Supergirl</h2>
+                        </div>	
+                    </div>
+                    <div class="flip-card-back">
+                        <br>
+                        <img src="https://logos-world.net/wp-content/uploads/2020/11/Superman-Logo.png" class="profile" style="width: 100%;">
+                        <br>
+                        <br>
+                        <h2>Supergirl</h2>
+                        <h3>Real name: Kara Zor-El</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card mx-auto">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="ww.png" alt="WonderWoman" class="profile" style="width: 90%;">
+                        <div class="container">
+                            <br>
+                            <h2>Wonder Woman</h2>
+                        </div>	
+                    </div>
+                    <div class="flip-card-back">
+                        <img src="https://images.seeklogo.com/logo-png/28/2/wonder-woman-logo-png_seeklogo-285316.png" class="profile" style="width: 75%;">
+                        <br>
+                        <h2>Wonder Woman</h2>
+                        <h3>Real name: Diana of Themyscira</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card mx-auto">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="batgirl.png" alt="Batgirl" class="profile" style="width: 90%;">
+                        <div class="container">
+                            <br>
+                            <h2>Batgirl</h2>
+                        </div>	
+                    </div>
+                    <div class="flip-card-back">
+                        <img src="batgirlogo.png" class="profile">
+                        <br>
+                        <h2>Batgirl</h2>
+                        <h3>Real name: Barbara Gordon</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+
+    <!-- FOOTER -->
+	<footer>
+		<h4><span>&#169</span> <a href="https://github.com/AGonzales-9R">Amanda Gonzales</a> | 10-Ruby</h4>
+	</footer>
+    
+</body>
+</html>
